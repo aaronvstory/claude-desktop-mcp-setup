@@ -1,0 +1,80 @@
+{
+  "globalShortcut": "Alt+Ctrl+Space",
+  "mcpServers": {
+    "researcher": {
+      "command": "node",
+      "args": [
+        "C:/Scripts/perplexity-server/build/index.js"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE"
+      }
+    },
+    "browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer@latest"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory@latest"
+      ]
+    },
+    "weather": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search@latest"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_SEARCH_API_KEY_HERE"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github@latest"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "YOUR_GITHUB_TOKEN_HERE"
+      }
+    },
+    "doc-scraper": {
+      "command": "python",
+      "args": [
+        "C:/Scripts/mcp-doc-scraper-fix/server.py"
+      ]
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander@latest"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem@latest",
+        "C:\\Users\\YOUR_USERNAME\\Desktop",
+        "C:\\Users\\YOUR_USERNAME\\Documents",
+        "C:\\Scripts",
+        "C:\\Projects",
+        "C:\\CLAUDE"
+      ]
+    },
+    "everything": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-everything@latest"
+      ]
+    }
+  }
+}
