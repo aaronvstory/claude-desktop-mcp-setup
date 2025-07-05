@@ -2,6 +2,30 @@
 
 All notable changes to the Claude Desktop MCP Setup will be documented here.
 
+## [1.1.0] - 2025-07-05
+
+### Added
+- **Smithery Integration** - Advanced MCP servers via Smithery platform
+- **Exa Search Server** - Semantic search and research capabilities
+- **Context7 Server** - Long-term context and knowledge management via Upstash
+- **Smithery Toolbox** - Comprehensive utility toolbox
+- Enhanced setup script (`setup-enhanced.bat`) with Smithery configuration
+- MCP server management guide (`MCP-SERVER-MANAGEMENT.md`)
+- Enhanced configuration template with optional Smithery servers
+- Automatic server discovery and update capabilities
+
+### Enhanced Features
+- Optional Smithery API key integration during setup
+- Conditional server installation based on available API keys
+- Improved setup validation and user guidance
+- Better error handling for missing dependencies
+
+### Documentation Updates
+- Added Smithery API key setup instructions
+- Enhanced feature descriptions for new servers
+- Updated testing procedures for advanced features
+- Added server management and update procedures
+
 ## [1.0.0] - 2025-07-05
 
 ### Added

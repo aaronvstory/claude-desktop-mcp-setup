@@ -39,6 +39,9 @@ chmod +x setup-interactive.sh
 - **💻 desktop-commander** - Advanced filesystem and system operations
 - **📁 filesystem** - Basic filesystem operations with security restrictions
 - **🧪 everything** - Testing and validation utilities
+- **🔎 exa** - Advanced semantic search and research capabilities via Smithery
+- **📚 context7** - Long-term context and knowledge management via Upstash
+- **🛠️ smithery-toolbox** - Comprehensive toolbox with multiple utilities
 
 ### Features
 - ✅ **Interactive API Key Setup** - Secure prompts for your API keys
@@ -68,6 +71,12 @@ chmod +x setup-interactive.sh
    - Generate API key
 
 ### Optional APIs
+4. **Smithery API Key** (Recommended for Enhanced Features)
+   - Visit: https://smithery.ai/
+   - Sign up for account and generate API key
+   - Enables advanced search (Exa), context management (Context7), and comprehensive toolbox
+   - Provides semantic search, long-term memory, and additional utilities
+
 - Custom servers may require additional configuration
 
 ## 🛠️ Manual Setup (Alternative)
